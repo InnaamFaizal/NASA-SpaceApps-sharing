@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Prototype</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav style="background-color: #f5f5f5; font-size: 17.5px;" class="navbar navbar-expand-sm justify-content-center navbar-light sticky-top">
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a style="margin-right: 30px;" class="nav-link" href="lesson1.html">Level 1</a>
+              </li>
+              <li class="nav-item">
+                <a style="margin-right: 30px; display: none;" class="nav-link" href="#">Level 2</a>
+              </li>
+              <li class="nav-item">
+                <a style="margin-right: 30px; display: none;"  class="nav-link" href="lesson3.html">Level 3</a>
+              </li>
+              <li class="nav-item">
+                <a style="display: none;" class="nav-link" href="#">Level 4</a>
+              </li>
+            </ul>
+          
+        </nav>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div style="position: relative; width: 0; height: 0">
+                        <div style="position: absolute; top: 180px; text-align: center; width: 1350px; color: white; font-family: 'Poppins'; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: black;">
+                            <h1 style="font-size: 70px;">Beautiful Scenery One</h1>
+                        </div>
+                    </div>
+                    <img src="img/img1.jpg" alt="Los Angeles" width="1500" height="450">
+                </div>
+                <div class="carousel-item">
+                    <div style="position: relative; width: 0; height: 0">
+                        <div style="position: absolute; top: 180px; text-align: center; width: 1350px; color: white; font-family: 'Poppins'; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: black;">
+                            <h1 style="font-size: 70px;">Beautiful Scenery Two</h1>
+                        </div>
+                    </div>
+                    <img src="img/img2.jpg" alt="Chicago" width="1350" height="450">
+                </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="container-fluid">
+            <div style="font-family: 'Tinos'; margin-top: 30px;" class="row text-center">
+                <div class="col-sm-4" style="border-right: 1px solid black;">
+                    <span style="font-family: 'Poppins'; font-size: 20px;">Column 1</span> <hr style="height: 3px; background: black;">
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sagittis lacus, quis interdum magna. Curabitur pulvinar blandit libero at convallis. Vivamus convallis et dui eu interdum. Morbi accumsan pretium justo ac pharetra. Nunc at purus purus. Nunc in quam nec neque rhoncus pretium. Phasellus gravida pharetra tellus, vitae laoreet purus accumsan non. Phasellus vel
+                    <img src="img/col-img.jpg" style="float: left; margin: 10px 10px 0px 0px;">
+                    laoreet quam. Integer et enim gravida, porttitor ex non, elementum ligula. Nam sit amet elit justo. Aenean in accumsan ante, ut aliquet justo. Quisque in lacinia nunc, vitae hendrerit lacus. Etiam eget velit interdum, porta est aliquam, cursus orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur at mi quam. Curabitur viverra at nunc et porta.
+                    
+                    Curabitur porttitor blandit ante non ultricies. Nullam in nisl justo. Aliquam quis libero vitae ex vulputate tincidunt. Cras eros ex, ornare a nibh elementum, lobortis tincidunt sapien. Ut dignissim in metus a rutrum. Cras vehicula quam eu lectus hendrerit, id mattis sem egestas. Donec placerat nibh vel massa suscipit imperdiet. Aliquam fermentum metus non interdum laoreet.</p>
+                </div>
+                <div class="col-sm-4" style="border-right: 1px solid black;">
+                    <span style="font-family: 'Poppins'; font-size: 20px;">Column 2</span> <hr style="height: 3px; background: black;">
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sagittis lacus, quis interdum magna. Curabitur pulvinar blandit libero at convallis. Vivamus convallis et dui eu interdum. Morbi accumsan pretium justo ac pharetra. Nunc at purus purus. Nunc in quam nec neque rhoncus pretium. Phasellus gravida pharetra tellus, vitae laoreet purus accumsan non. Phasellus vel
+                    <img src="img/col-img-2.jpg" style="float: left; margin: 10px 10px 0px 0px;">
+                    laoreet quam. Integer et enim gravida, porttitor ex non, elementum ligula. Nam sit amet elit justo. Aenean in accumsan ante, ut aliquet justo. Quisque in lacinia nunc, vitae hendrerit lacus. Etiam eget velit interdum, porta est aliquam, cursus orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur at mi quam. Curabitur viverra at nunc et porta.
+
+                    Curabitur porttitor blandit ante non ultricies. Nullam in nisl justo. Aliquam quis libero vitae ex vulputate tincidunt. Cras eros ex, ornare a nibh elementum, lobortis tincidunt sapien. Ut dignissim in metus a rutrum. Cras vehicula quam eu lectus hendrerit, id mattis sem egestas. Donec placerat nibh vel massa suscipit imperdiet. Aliquam fermentum metus non interdum laoreet.</p>
+                </div>
+                <div class="col-sm-4">
+                    <span style="font-family: 'Poppins'; font-size: 20px;">Column 3</span> <hr style="height: 3px; background: black;">
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sagittis lacus, quis interdum magna. Curabitur pulvinar blandit libero at convallis. Vivamus convallis et dui eu interdum. Morbi accumsan pretium justo ac pharetra. Nunc at purus purus. Nunc in quam nec neque rhoncus pretium. Phasellus gravida pharetra tellus, vitae laoreet purus accumsan non. Phasellus vel 
+                    <img src="img/col-img-3.jpg" style="float: left; margin: 10px 10px 0px 0px;">
+                    laoreet quam. Integer et enim gravida, porttitor ex non, elementum ligula. Nam sit amet elit justo. Aenean in accumsan ante, ut aliquet justo. Quisque in lacinia nunc, vitae hendrerit lacus. Etiam eget velit interdum, porta est aliquam, cursus orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur at mi quam. Curabitur viverra at nunc et porta.
+
+                    Curabitur porttitor blandit ante non ultricies. Nullam in nisl justo. Aliquam quis libero vitae ex vulputate tincidunt. Cras eros ex, ornare a nibh elementum, lobortis tincidunt sapien. Ut dignissim in metus a rutrum. Cras vehicula quam eu lectus hendrerit, id mattis sem egestas. Donec placerat nibh vel massa suscipit imperdiet. Aliquam fermentum metus non interdum laoreet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="font-family: 'Poppins'; font-size: 15px; margin: 30px auto; width: 85%; padding: 20px; border: 2.5px solid black">
+            <img src="img/para-img-1.jpg" style="float: left; margin: 20px 20px 0px 10px;">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed metus vestibulum ante lacinia dignissim vitae in enim. Aenean et tempus arcu. Mauris id tempor nisl, quis cursus quam. Mauris vel lectus orci. Vestibulum at ante a dui pharetra sodales quis vel arcu. Nam in lectus mollis, ultrices urna at, feugiat ligula. Quisque aliquam quam a lorem iaculis fermentum id nec justo. Sed porttitor id libero et efficitur. Nam a euismod mauris. Suspendisse varius lorem sed libero hendrerit rhoncus.
+            <br>
+            <br>
+            In commodo sapien a nisl vehicula viverra. Morbi interdum mattis pretium. Etiam eget libero libero. Mauris semper scelerisque feugiat. Etiam id varius libero. Pellentesque pretium elit risus, at consequat ex eleifend a. Vestibulum in viverra dui, suscipit mattis felis.
+            <br>
+            <br>
+            Nunc volutpat elementum ex, posuere tincidunt ipsum fermentum vitae. Vivamus tempus mollis neque, accumsan hendrerit lectus sollicitudin vel. Donec a eleifend velit. Nunc consectetur dignissim velit, quis eleifend nunc volutpat sit amet. Curabitur convallis orci ultrices ipsum ultrices ornare. Mauris eget metus nec massa malesuada vestibulum ut at metus. Cras tempor lorem eros, at convallis leo pellentesque sed. Aenean a euismod turpis. Quisque ac pharetra diam. Praesent vulputate ultrices nulla, in dignissim augue dapibus a. Nullam vitae dictum leo, eu luctus diam. Etiam gravida, libero quis vestibulum eleifend, urna nisl viverra massa, a porttitor lacus turpis id augue. Praesent ut orci quam. Nulla blandit metus a dui vestibulum fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec et commodo enim.
+            <br>
+            <br>
+            Mauris id condimentum metus, in consectetur felis. Nullam egestas metus ex, sed hendrerit sapien facilisis sit amet. In nec placerat mi. Aenean porttitor augue non dictum fermentum. Quisque mattis viverra dui eget tincidunt. Nullam scelerisque, mi gravida mattis convallis, tellus erat ullamcorper dolor, vitae mattis arcu justo quis nisl. Duis vitae lorem vitae dui viverra pellentesque. Pellentesque mattis libero eu erat elementum feugiat. Nunc molestie risus quis pretium vulputate. Quisque fermentum quis lorem vel suscipit. Suspendisse convallis nisl elit, non ultrices eros posuere vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit, urna eu tincidunt ultricies, dolor quam sodales neque, vitae interdum magna turpis et nulla. Cras nisi nibh, ultricies sed ultrices sed, consequat sit amet elit. Duis sollicitudin rutrum tortor. Etiam ultrices tellus sit amet est congue, non feugiat nibh convallis.
+            <br>
+            <br>
+            Nulla ut rutrum risus, sed condimentum quam. Praesent in neque id justo dapibus maximus vel gravida risus. Pellentesque ac ullamcorper diam, vitae lacinia enim. In nec faucibus lectus. Nam laoreet erat ac urna maximus cursus. Ut scelerisque placerat tortor, quis vestibulum magna bibendum a. Etiam in augue erat. Praesent ut lectus quis velit blandit tempus. Aliquam efficitur magna risus, eget egestas leo efficitur ut. Proin laoreet ligula ac est laoreet, vitae imperdiet ipsum feugiat. Praesent at blandit massa. Donec bibendum euismod venenatis. Etiam vitae ante non purus cursus egestas at vel nunc. Phasellus fermentum lectus sed nibh porta venenatis.
+            </p>
+        </div>
+    </body>
+</html>
